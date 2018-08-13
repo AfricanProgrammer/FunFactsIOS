@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C611155B211DF35400695938 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C611155A211DF35400695938 /* FactProvider.swift */; };
 		C61C06FF211C51A2008560E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C06FE211C51A2008560E6 /* AppDelegate.swift */; };
 		C61C0701211C51A2008560E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C0700211C51A2008560E6 /* ViewController.swift */; };
 		C61C0704211C51A2008560E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61C0702211C51A2008560E6 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C611155A211DF35400695938 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 		C61C06FB211C51A2008560E6 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61C06FE211C51A2008560E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C61C0700211C51A2008560E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C61C06FE211C51A2008560E6 /* AppDelegate.swift */,
 				C61C0700211C51A2008560E6 /* ViewController.swift */,
+				C611155A211DF35400695938 /* FactProvider.swift */,
 				C61C0702211C51A2008560E6 /* Main.storyboard */,
 				C61C0705211C51AE008560E6 /* Assets.xcassets */,
 				C61C0707211C51AE008560E6 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				C61C0701211C51A2008560E6 /* ViewController.swift in Sources */,
 				C61C06FF211C51A2008560E6 /* AppDelegate.swift in Sources */,
+				C611155B211DF35400695938 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = africannotesapp.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.africanprogrammer.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = africannotesapp.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.africanprogrammer.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
